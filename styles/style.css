@@ -25,6 +25,24 @@
     color: #469165;
 }
 
+.btn-white{
+    padding: 13px 16px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: .33s;
+    margin-left: 16px;
+}
+
+.btn-white:hover{
+    background-color: #469165;
+    border-color: #469165;
+}
+
 .navmenu{
     width: 85%;
     max-width: 1360px;
@@ -47,4 +65,63 @@
     font-weight: 500;
     color: #000000;
     line-height: 25px;
+}
+
+#banner{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: url(../assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#banner .banner-container{
+    width: 85%;
+    max-width: 1360px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner-shape{
+    width: 50%;
+    max-width: 230px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 6px;
+    background-color: #FFFFFF;
+    border-radius: 1000px;
+    padding: 8px 12px;
+    margin-bottom: 16px;
+}
+
+.banner-shape img{
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.banner-shape p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #469165;
+}
+
+.banner-container h2{
+    font-size: 72px;
+    font-weight: 700;
+    line-height: 84px;
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.banner-txt{
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+    line-height: 24px;
+    margin-top: 16px;
+    margin-bottom: 32px;
 }
